@@ -1,0 +1,100 @@
+/* Googlefont Poppins CDN Link */
+.contenedorDashboardSuperior{
+height: 100px; width: 100%; margin-bottom: 0px;  
+}
+.contenedorDashboardSuperior div{
+position: absolute;
+
+background-color: #400098; 
+ border-spacing: 1px;
+    
+    border-collapse: collapse;
+    border-radius: 15px;
+    width: 21%;
+    height: 100px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.15);
+  }
+
+  #segundoDiv{
+    left: 30%;
+   
+  }
+
+
+  #tercerDiv{
+    left: 53%;
+  
+  }
+
+  #cuartoDiv{
+    right: 3%;
+  
+  }
+
+  #primerDiv{
+    overflow: hidden;
+   
+  
+  }
+  #mostrarPrimero{
+    position: absolute; 
+    margin:-75px 205px ;
+    font-size: 3rem;
+    color: #ffffff;
+
+  }
+
+   #mostrarSegundo{
+    position: absolute; 
+    margin:-20px 135px ;
+    font-size: 1rem;
+    color: #ffffff;
+
+  }
+
+   #tituloContenedor{
+    position: absolute; 
+    margin:-85px 80px ;
+    font-size: 1rem;
+    color: #ffffff;
+
+  }
+   #mostrarPrimeroDos{
+    position: absolute; 
+    margin:-75px 205px ;
+    font-size: 3rem;
+    color: #ffffff;
+
+  }
+
+   #tituloContenedorDos{
+    position: absolute; 
+    margin:-85px 60px ;
+    font-size: 1rem;
+    color: #ffffff;
+
+  }
+
+   #mostrarSegundoTres{
+    position: absolute; 
+    margin:-20px 135px ;
+    font-size: 1rem;
+    color: #ffffff;
+
+  }
+
+   #tituloContenedorTres{
+    position: absolute; 
+    margin:-85px 35px ;
+    font-size: 1rem;
+    color: #ffffff;
+
+  }
+
+  #mostrarPrimeroTres{
+    position: absolute; 
+    margin:-75px 205px ;
+    font-size: 3rem;
+    color: #ffffff;
+
+  }

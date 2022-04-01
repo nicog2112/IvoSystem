@@ -1,0 +1,442 @@
+#chartContainer{
+    height: 100%; width:100% !important;; border-radius: 50px;
+}
+#chartContainer2{
+    height: 100%; width:100% !important;; border-radius: 50px; display: none;
+}
+#chartContainer3{
+    height: 100%; width:100% !important;; border-radius: 50px; display: none
+}
+#chartContainer4{
+    height: 100%; width: 100%; border-radius: 50px; display: none
+}
+
+
+fieldset {
+    font-family: sans-serif;
+    border: 2px solid #7E1EC3;
+    background: #E5E5E5;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background: #7E1EC3;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+#container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.formularioEstado{
+   position: absolute;
+   display: block;
+   color: #7E1EC3;
+   text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9;
+   color: #7E1EC3;
+   font-family:courier,arial,helvética;
+   text-align: center;
+   margin-left: 500px ;
+   z-index: 100;
+
+
+   
+}
+
+.contenedorReferencia{
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border-width:2px;
+    border-style:solid;
+    border-color: #7E1EC3;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100px;
+     margin-bottom: 100px;
+
+}
+
+.contenedorFormularoReportes{
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border-width:2px;
+    border-style:solid;
+    border-color: #7E1EC3;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 70px;
+
+}
+
+.contenedorGraficoPrincipal{
+    height: 350px; width: 100%;border-spacing: 1px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 100px;
+
+}
+
+.formularioEstadoReportes{ 
+  
+   display: block;
+   color: #7E1EC3;
+   text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9;
+   color: #7E1EC3;
+   font-family:courier,arial,helvética;
+   text-align: center;
+   margin: auto ;
+   margin-top: 20px;
+
+   
+}
+
+.formularioEstado select{
+    
+  background-color: #E4E9F7;
+  color: #7E1EC3 ;
+  border-radius: 4px;
+  cursor: pointer;
+
+  
+}
+
+#botonFiltrarVentas{
+   border: 1px solid #89019B; /*anchura, estilo y color borde*/
+   padding: 3px; /*espacio alrededor texto*/
+   background-color: #89019B; /*color botón*/
+   color: #ffffff; /*color texto*/
+   text-decoration: none; /*decoración texto*/
+   text-transform: uppercase; /*capitalización texto*/
+   font-family: sans-serif; /*tipografía texto*/
+   border-radius: 5px; /*bordes redondos*/
+   overflow: hidden;
+   transition: 0.4s all ease-in;
+   border:2px solid #89019B; 
+   cursor: pointer;
+
+   z-index: 4;
+
+}
+
+#botonFiltrar{
+   border: 1px solid #89019B; /*anchura, estilo y color borde*/
+   padding: 3px; /*espacio alrededor texto*/
+   background-color: #89019B; /*color botón*/
+   color: #ffffff; /*color texto*/
+   text-decoration: none; /*decoración texto*/
+   text-transform: uppercase; /*capitalización texto*/
+   font-family: sans-serif; /*tipografía texto*/
+   border-radius: 5px; /*bordes redondos*/
+   overflow: hidden;
+   transition: 0.4s all ease-in;
+   border:2px solid #89019B; 
+   cursor: pointer;
+
+}
+#botonFiltrar:hover{
+    background: #CA23E0;
+    color: #ffffff;
+    box-shadow: 0 0 5px #CA23E0;
+    border:2px solid #CA23E0;
+
+    
+}
+
+.styled-table {
+	border-spacing: 1px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center; 
+    margin: auto   ;
+    font-size: 0.9 em;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.15);
+    padding: 0px;
+    min-width: 95%;
+    max-width: 100%;
+}
+
+.styled-table thead{
+    background-color: #400098; 
+    color: #ffffff;
+    text-align: center;
+    
+
+}
+
+
+.styled-table th,
+.styled-table td {
+	text-align: center;
+    padding: 12px 15px;
+
+
+}
+.styled-table tbody tr{
+
+    border-bottom: 1px solid #ccc;
+}
+
+#table_id{
+    width: 100%;
+}
+
+.estadoActivo{
+    color: #1AF02D;
+}
+
+.estadoInactivo{
+    color: #EE0B0B;
+}
+
+
+.btnExcel {
+    border: 1px solid #15B929; /*anchura, estilo y color borde*/
+    padding: 3px; /*espacio alrededor texto*/
+    background-color: #15B929; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: sans-serif; /*tipografía texto*/
+    border-radius: 5px; /*bordes redondos*/
+    overflow: hidden;
+    transition: 0.4s all ease-in;
+    border:2px solid #15B929;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+.btnExcel:hover{
+    background: #18DE30;
+    color: #ffffff;
+    box-shadow: 0 0 5px #18DE30;
+    border:2px solid #18DE30;
+
+    
+}
+
+.btnPDF {
+    border: 1px solid #0E238F; /*anchura, estilo y color borde*/
+    padding: 3px; /*espacio alrededor texto*/
+    background-color: #0E238F; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: sans-serif; /*tipografía texto*/
+    border-radius: 5px; /*bordes redondos*/
+    overflow: hidden;
+    transition: 0.4s all ease-in;
+    border:2px solid #0E238F;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+.btnPDF:hover{
+    background: #1130D1;
+    color: #ffffff;
+    box-shadow: 0 0 5px #1130D1;
+    border:2px solid #1130D1;
+
+    
+}
+
+.btnImprimir {
+    border: 1px solid #8B1C9D; /*anchura, estilo y color borde*/
+    padding: 3px; /*espacio alrededor texto*/
+    background-color: #8B1C9D; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: sans-serif; /*tipografía texto*/
+    border-radius: 5px; /*bordes redondos*/
+    overflow: hidden;
+    transition: 0.4s all ease-in;
+    border:2px solid #8B1C9D;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+.btnImprimir:hover{
+    background: #C71EE3;
+    color: #ffffff;
+    box-shadow: 0 0 5px #C71EE3;
+    border:2px solid #C71EE3;
+
+    
+}
+
+.dataTables_filter{
+
+    margin-bottom: 10px;
+}
+
+.dataTables_length label{
+    color: #7E1EC3;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9;
+    color: #7E1EC3;
+    font-family:courier,arial,helvética;
+
+}
+
+.dataTables_filter label{
+    color: #7E1EC3;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9;
+    color: #7E1EC3;
+    font-family:courier,arial,helvética;
+}
+
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #7e1ec3;
+}
+
+.dataTables_wrapper .dataTables_length select{
+    background-color: #E4E9F7;
+    color: #7E1EC3 ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+div.dt-buttons {
+    position: absolute;
+    right: 0px;
+    top: -50px;
+}
+.dataTables_info{
+    color: #7E1EC3 !important;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9;
+    color: #7E1EC3;
+    font-family:courier,arial,helvética;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled{
+  color: #7E1EC3 !important;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9;
+  color: #7E1EC3;
+  font-family:courier,arial,helvética;
+}
+
+#example_next{
+   color: #7E1EC3 !important;
+   text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9;
+   color: #7E1EC3;
+   font-family:courier,arial,helvética;
+}
+
+
+.buttonReporteAnual {
+  min-width: 255px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #4433ff;
+  background: #4433ff;
+  margin: auto;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+.buttonReporteAnual:hover {
+  background: #fff;
+  color: #4433ff
+}
+
+.buttonReporteMensual {
+  min-width: 255px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #F30000;
+  background: #F30000;
+  margin: auto;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+.buttonReporteMensual:hover {
+  background: #fff;
+  color: #F30000
+}
+
+.buttonReporteSemanal {
+  min-width: 255px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #C50CB4;
+  background: #C50CB4;
+  margin: auto;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+.buttonReporteSemanal:hover {
+  background: #fff;
+  color: #C50CB4
+}
+
+.buttonReporteDia {
+  min-width: 255px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #44C50C;
+  background: #44C50C;
+  margin: auto;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+.buttonReporteDia:hover {
+  background: #fff;
+  color: #44C50C
+}
