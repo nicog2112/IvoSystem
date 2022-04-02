@@ -1,6 +1,7 @@
 # IvoSystem
 Proyecto Sistema de ventas Online para boutique
 El sistema permitirá gestionar el control de productos y las ventas realizadas a través del internet permitiendo lo siguiente: 
+
 • Validación en ingreso de datos: Tanto del lado del servidor como del lado del cliente
 • ABM de tablas maestras: Alta, Baja y Modificación de datos.
 • Transacciones: En los módulos de compra, venta y generación de facturas.
