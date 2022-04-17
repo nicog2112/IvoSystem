@@ -163,7 +163,7 @@ if (isset($_GET["error"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/programacion_3/boutique/styleDashboard.css"> 
+    <link rel="stylesheet" href="/programacion_3/boutique/css/styleDashboard.css"> 
     <script src="/programacion_3/boutique/jquery/jquery-3.3.1.min.js"></script>
     <script src="../../js/canvas.js"></script>
     <!-- Validaciones JS -->
